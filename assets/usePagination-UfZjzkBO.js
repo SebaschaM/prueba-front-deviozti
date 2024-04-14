@@ -1,0 +1,1 @@
+import{r as c}from"./index-g7zPiIaF.js";const x=(e,n=5)=>{const[s,r]=c.useState(1),u=c.useMemo(()=>{var t;return Math.ceil(((t=e||[])==null?void 0:t.length)/n)||1},[e,n]),g=s*n,o=(s-1)*n,h=(e==null?void 0:e.slice(o,g))||[];return{currentPage:s,totalPages:u,currentItems:h,indexOfFirstItem:o,handlePageChange:t=>{r(t)}}};export{x as u};
